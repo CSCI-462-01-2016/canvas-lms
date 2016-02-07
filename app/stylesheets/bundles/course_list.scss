@@ -39,6 +39,9 @@ table.course-list-table {
   .course-list-table-row:hover {
     @if $use_new_styles { background-color: $lightBackground; }
     @else { background-color: #eee; }
+    .icon-star {
+      -webkit-filter: invert(.75);
+    }
   }
 }
 
